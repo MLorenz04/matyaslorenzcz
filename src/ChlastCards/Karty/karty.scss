@@ -1,0 +1,6 @@
+@use "../../variables.scss";
+.ChlastCards {
+  &__karty {
+    background-color: variables.$black;
+  }
+}

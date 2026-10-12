@@ -1,3 +1,42 @@
-#headshot {
-  text-align: center;
+@use "../../variables.scss";
+
+.ChlastCards {
+  background-color: variables.$black;
+  &__headshot {
+    width: 100%;
+    height: 100vh;
+
+    h1 {
+      color: white;
+      font-size: 5rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    h2 {
+      color: white;
+      font-size: 2rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    &__content {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 4rem;
+    }
+
+    img {
+      position: absolute;
+      right: 10%;
+      top: 12.5%;
+      height: 75%;
+    }
+  }
+}
+
+.--white {
+  color: white;
 }

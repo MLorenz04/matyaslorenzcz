@@ -1,0 +1,33 @@
+.ChlastCards nav {
+  width: calc(100% - 5rem);
+  padding-left: 5rem;
+  text-align: left;
+  padding-top: 2rem;
+  background-color: #1d1d1d;
+}
+.ChlastCards nav a {
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-decoration: none;
+  opacity: 0;
+}
+.ChlastCards nav a:nth-child(1n) {
+  animation: rollDown 1s ease 0.25s 1 normal forwards;
+}
+.ChlastCards nav a:nth-child(2n) {
+  animation: rollDown 1s ease 0.5s 1 normal forwards;
+}
+.ChlastCards nav a :visited {
+  text-decoration: none;
+}
+@keyframes rollDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}/*# sourceMappingURL=navbar.css.map */

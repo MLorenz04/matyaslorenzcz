@@ -1,3 +1,36 @@
-#headshot {
-  text-align: center;
+.ChlastCards {
+  background-color: #1d1d1d;
+}
+.ChlastCards__headshot {
+  width: 100%;
+  height: 100vh;
+}
+.ChlastCards__headshot h1 {
+  color: white;
+  font-size: 5rem;
+  margin: 0;
+  padding: 0;
+}
+.ChlastCards__headshot h2 {
+  color: white;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+.ChlastCards__headshot__content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 4rem;
+}
+.ChlastCards__headshot img {
+  position: absolute;
+  right: 10%;
+  top: 12.5%;
+  height: 75%;
+}
+
+.--white {
+  color: white;
 }/*# sourceMappingURL=homepage.css.map */
