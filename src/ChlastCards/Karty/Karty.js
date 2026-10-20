@@ -18,6 +18,6 @@ var jsx_runtime_1 = require("react/jsx-runtime");
 var Navbar_1 = __importDefault(require("../Homepage/Components/Navbar/Navbar"));
 require("./karty.css");
 function Karty() {
-    return ((0, jsx_runtime_1.jsx)("section", __assign({ className: "ChlastCards__karty" }, { children: (0, jsx_runtime_1.jsx)(Navbar_1["default"], {}) })));
+    return ((0, jsx_runtime_1.jsxs)("section", __assign({ className: "ChlastCards__karty" }, { children: [(0, jsx_runtime_1.jsx)(Navbar_1["default"], {}), (0, jsx_runtime_1.jsx)("div", __assign({ className: "ChlastCards__karty__grid" }, { children: Array.from({ length: 100 }, function (_, i) { return ((0, jsx_runtime_1.jsx)("img", { className: "ChlastCards__karty__card", src: "/Cards/BET/".concat(i + 1, ".png"), alt: "Karta ".concat(i + 1) }, i + 1)); }) }))] })));
 }
 exports["default"] = Karty;

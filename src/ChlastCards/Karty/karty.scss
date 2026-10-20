@@ -2,5 +2,9 @@
 .ChlastCards {
   &__karty {
     background-color: variables.$black;
+
+    &__card {
+      max-width: 20rem;
+    }
   }
 }

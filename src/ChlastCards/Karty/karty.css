@@ -1,3 +1,6 @@
 .ChlastCards__karty {
   background-color: #1d1d1d;
+}
+.ChlastCards__karty__card {
+  max-width: 20rem;
 }/*# sourceMappingURL=karty.css.map */
