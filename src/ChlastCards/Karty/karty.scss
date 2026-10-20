@@ -1,10 +1,42 @@
 @use "../../variables.scss";
 .ChlastCards {
   &__karty {
+    width: 100%;
     background-color: variables.$black;
 
+    &__content {
+      display: flex;
+      width: 100%;
+    }
+
+    &__edition {
+      width: calc(100% - 200px);
+
+      @media screen and (max-width: 500px) {
+        width: calc(100% - 100px);
+      }
+    }
+
+    &__heading {
+      text-align: center;
+    }
+
+    &__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 300px);
+      justify-content: center;
+      gap: 16px;
+
+      @media screen and (max-width: 500px) {
+        grid-template-columns: repeat(auto-fill, 200px);
+      }
+    }
+
     &__card {
-      max-width: 20rem;
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 9px;
     }
   }
 }

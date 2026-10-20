@@ -1,0 +1,22 @@
+.ChlastCards__karty__sidebar {
+  width: 200px;
+}
+@media screen and (max-width: 500px) {
+  .ChlastCards__karty__sidebar {
+    width: 100px;
+  }
+}
+.ChlastCards__karty__sidebar__header {
+  text-align: center;
+}
+.ChlastCards__karty__sidebar__link {
+  cursor: pointer;
+  width: calc(100% - 1rem);
+  padding-left: 1rem;
+  font-weight: 800;
+  color: rgb(162, 161, 161);
+}
+.ChlastCards__karty__sidebar__link__selected {
+  transition: color 0.3s;
+  color: white;
+}/*# sourceMappingURL=ChlastCardsSidebar.css.map */

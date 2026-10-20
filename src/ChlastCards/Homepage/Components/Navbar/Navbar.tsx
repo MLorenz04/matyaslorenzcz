@@ -11,7 +11,7 @@ export default function ChlastCardsNavbar() {
         {" "}
         Karty{" "}
       </a>
-      <a className="--white" href="/chlastCards">
+      <a className="--white" href="/chlastCards/Pravidla.pdf">
         {" "}
         Pravidla{" "}
       </a>

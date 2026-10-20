@@ -16,6 +16,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 exports.__esModule = true;
 var jsx_runtime_1 = require("react/jsx-runtime");
 require("./homepage.css");
+require("../ChlastCards.css");
 var ChlastCards___BET_png_1 = __importDefault(require("./ChlastCards - BET.png"));
 var Navbar_1 = __importDefault(require("./Components/Navbar/Navbar"));
 function ChlastCardsHomepage() {

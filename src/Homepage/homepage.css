@@ -1,5 +1,4 @@
-
-.headshot {
+.homepage .headshot {
   text-align: center;
   width: 100%;
   height: 100vh;
@@ -11,54 +10,50 @@
   margin: 0;
   padding: 0;
 }
-.headshot__header {
+.homepage .headshot__header {
   animation: flowLeft 1s ease 0s 1 normal forwards;
   font-size: 4.5rem;
   margin-bottom: 0;
   margin-top: 4rem;
   font-weight: 700;
 }
-.headshot__title {
+.homepage .headshot__title {
   opacity: 0;
   animation: flowRight 1s ease 0.25s 1 normal forwards;
   margin-top: 0;
   font-size: 1.8rem;
   font-weight: 600;
 }
-.headshot__img {
+.homepage .headshot__img {
   position: absolute;
   animation: appear 0.5s ease 0.75s 1 normal forwards;
-  width: 500px;
+  height: 60%;
   opacity: 0;
   bottom: -1px;
   align-self: center;
 }
-.headshot__fancy {
+.homepage .headshot__fancy {
   position: relative;
   top: 1rem;
 }
-.headshot__fancy__left {
+.homepage .headshot__fancy__left {
   left: 1rem;
 }
-.headshot__fancy__right {
+.homepage .headshot__fancy__right {
   right: 1rem;
 }
-
-.divider {
-  background-color: #515920;
+.homepage .divider {
+  background-color: #315215;
   width: 100%;
   height: 2rem;
   margin: 0;
 }
-
-.--green {
-  color: #515920;
+.homepage .--green {
+  color: #315215;
 }
-
-.--bg-green {
-  background-color: #515920;
+.homepage .--bg-green {
+  background-color: #315215;
 }
-
 @keyframes flowLeft {
   0% {
     opacity: 0;

@@ -1,0 +1,24 @@
+.ChlastCards__karty__sidebar {
+  width: 200px;
+
+  @media screen and (max-width: 500px) {
+    width: 100px;
+  }
+
+  &__header {
+    text-align: center;
+  }
+
+  &__link {
+    cursor: pointer;
+    width: calc(100% - 1rem);
+    padding-left: 1rem;
+    font-weight: 800;
+    color: rgb(162, 161, 161);
+
+    &__selected {
+      transition: color 0.3s;
+      color: white;
+    }
+  }
+}

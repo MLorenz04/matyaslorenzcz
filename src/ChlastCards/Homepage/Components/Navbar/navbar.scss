@@ -8,6 +8,13 @@
     padding-top: 2rem;
     background-color: variables.$black;
 
+    @media screen and (max-width: 500px) {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      padding-left: 1rem;
+    }
+
     a {
       margin-right: 2rem;
       font-size: 1.5rem;
@@ -25,6 +32,10 @@
 
       :visited {
         text-decoration: none;
+      }
+
+      @media screen and (max-width: 500px) {
+        font-size: 1rem;
       }
     }
   }

@@ -14,6 +14,6 @@ exports.__esModule = true;
 var jsx_runtime_1 = require("react/jsx-runtime");
 require("./navbar.css");
 function ChlastCardsNavbar() {
-    return ((0, jsx_runtime_1.jsxs)("nav", __assign({ className: "--white" }, { children: [(0, jsx_runtime_1.jsxs)("a", __assign({ className: "--white", href: "/" }, { children: [" ", "Dom\u016F"] })), (0, jsx_runtime_1.jsxs)("a", __assign({ className: "--white", href: "/chlastCards/karty" }, { children: [" ", "Karty", " "] })), (0, jsx_runtime_1.jsxs)("a", __assign({ className: "--white", href: "/chlastCards" }, { children: [" ", "Pravidla", " "] }))] })));
+    return ((0, jsx_runtime_1.jsxs)("nav", __assign({ className: "--white" }, { children: [(0, jsx_runtime_1.jsxs)("a", __assign({ className: "--white", href: "/" }, { children: [" ", "Dom\u016F"] })), (0, jsx_runtime_1.jsxs)("a", __assign({ className: "--white", href: "/chlastCards/karty" }, { children: [" ", "Karty", " "] })), (0, jsx_runtime_1.jsxs)("a", __assign({ className: "--white", href: "/chlastCards/Pravidla.pdf" }, { children: [" ", "Pravidla", " "] }))] })));
 }
 exports["default"] = ChlastCardsNavbar;

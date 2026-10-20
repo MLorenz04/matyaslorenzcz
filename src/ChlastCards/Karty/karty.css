@@ -1,6 +1,36 @@
 .ChlastCards__karty {
+  width: 100%;
   background-color: #1d1d1d;
 }
+.ChlastCards__karty__content {
+  display: flex;
+  width: 100%;
+}
+.ChlastCards__karty__edition {
+  width: calc(100% - 200px);
+}
+@media screen and (max-width: 500px) {
+  .ChlastCards__karty__edition {
+    width: calc(100% - 100px);
+  }
+}
+.ChlastCards__karty__heading {
+  text-align: center;
+}
+.ChlastCards__karty__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  justify-content: center;
+  gap: 16px;
+}
+@media screen and (max-width: 500px) {
+  .ChlastCards__karty__grid {
+    grid-template-columns: repeat(auto-fill, 200px);
+  }
+}
 .ChlastCards__karty__card {
-  max-width: 20rem;
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 9px;
 }/*# sourceMappingURL=karty.css.map */

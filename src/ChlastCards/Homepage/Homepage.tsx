@@ -1,4 +1,5 @@
 import "./homepage.css";
+import "../ChlastCards.css";
 import chlastCards from "./ChlastCards - BET.png";
 import ChlastCardsNavbar from "./Components/Navbar/Navbar";
 export default function ChlastCardsHomepage() {

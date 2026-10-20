@@ -5,6 +5,14 @@
   padding-top: 2rem;
   background-color: #1d1d1d;
 }
+@media screen and (max-width: 500px) {
+  .ChlastCards nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-left: 1rem;
+  }
+}
 .ChlastCards nav a {
   margin-right: 2rem;
   font-size: 1.5rem;
@@ -20,6 +28,11 @@
 }
 .ChlastCards nav a :visited {
   text-decoration: none;
+}
+@media screen and (max-width: 500px) {
+  .ChlastCards nav a {
+    font-size: 1rem;
+  }
 }
 @keyframes rollDown {
   0% {
